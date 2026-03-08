@@ -1,0 +1,108 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "黄巾之乱",
+      "year": 184,
+      "description": "东汉末年，张角领导的黄巾起义爆发，天下大乱，群雄并起。",
+      "rulers": [
+        {"name": "张角", "force": "qun", "city": "广宗", "difficulty": "easy"},
+        {"name": "张宝", "force": "qun", "city": "下曲阳", "difficulty": "easy"},
+        {"name": "张梁", "force": "qun", "city": "曲阳", "difficulty": "easy"},
+        {"name": "刘焉", "force": "qun", "city": "成都", "difficulty": "normal"},
+        {"name": "刘虞", "force": "qun", "city": "蓟", "difficulty": "normal"},
+        {"name": "董卓", "force": "qun", "city": "凉州", "difficulty": "normal"},
+        {"name": "丁原", "force": "qun", "city": "晋阳", "difficulty": "normal"},
+        {"name": "袁绍", "force": "qun", "city": "渤海", "difficulty": "normal"},
+        {"name": "袁术", "force": "qun", "city": "南阳", "difficulty": "normal"},
+        {"name": "曹操", "force": "qun", "city": "陈留", "difficulty": "hard"},
+        {"name": "刘备", "force": "qun", "city": "平原", "difficulty": "hard"},
+        {"name": "孙坚", "force": "qun", "city": "长沙", "difficulty": "hard"},
+        {"name": "汉灵帝", "force": "qun", "city": "洛阳", "difficulty": "normal"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "讨伐董卓",
+      "year": 190,
+      "description": "董卓废少帝立献帝，专权乱政，十八路诸侯联军讨伐董卓。",
+      "rulers": [
+        {"name": "董卓", "force": "qun", "city": "洛阳", "difficulty": "easy"},
+        {"name": "袁绍", "force": "qun", "city": "渤海", "difficulty": "normal"},
+        {"name": "袁术", "force": "qun", "city": "南阳", "difficulty": "normal"},
+        {"name": "曹操", "force": "qun", "city": "陈留", "difficulty": "normal"},
+        {"name": "刘备", "force": "qun", "city": "平原", "difficulty": "hard"},
+        {"name": "孙坚", "force": "wu", "city": "长沙", "difficulty": "normal"},
+        {"name": "公孙瓒", "force": "qun", "city": "北平", "difficulty": "normal"},
+        {"name": "刘表", "force": "qun", "city": "襄阳", "difficulty": "normal"},
+        {"name": "刘璋", "force": "qun", "city": "成都", "difficulty": "normal"},
+        {"name": "马腾", "force": "qun", "city": "西凉", "difficulty": "normal"},
+        {"name": "陶谦", "force": "qun", "city": "徐州", "difficulty": "normal"},
+        {"name": "孔融", "force": "qun", "city": "北海", "difficulty": "normal"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "群雄割据",
+      "year": 196,
+      "description": "董卓死后，天下陷入群雄割据的局面，各路诸侯各自为政。",
+      "rulers": [
+        {"name": "曹操", "force": "wei", "city": "许昌", "difficulty": "easy"},
+        {"name": "刘备", "force": "shu", "city": "小沛", "difficulty": "hard"},
+        {"name": "吕布", "force": "qun", "city": "徐州", "difficulty": "normal"},
+        {"name": "袁术", "force": "qun", "city": "寿春", "difficulty": "normal"},
+        {"name": "袁绍", "force": "qun", "city": "邺城", "difficulty": "normal"},
+        {"name": "孙策", "force": "wu", "city": "建业", "difficulty": "normal"},
+        {"name": "刘表", "force": "qun", "city": "襄阳", "difficulty": "normal"},
+        {"name": "刘璋", "force": "qun", "city": "成都", "difficulty": "normal"},
+        {"name": "马腾", "force": "qun", "city": "西凉", "difficulty": "normal"},
+        {"name": "张鲁", "force": "qun", "city": "汉中", "difficulty": "normal"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "官渡之战",
+      "year": 200,
+      "description": "曹操与袁绍在官渡展开决战，这是决定北方归属的关键一战。",
+      "rulers": [
+        {"name": "曹操", "force": "wei", "city": "许昌", "difficulty": "normal"},
+        {"name": "袁绍", "force": "qun", "city": "邺城", "difficulty": "normal"},
+        {"name": "刘备", "force": "shu", "city": "新野", "difficulty": "hard"},
+        {"name": "孙策", "force": "wu", "city": "建业", "difficulty": "normal"},
+        {"name": "刘表", "force": "qun", "city": "襄阳", "difficulty": "normal"},
+        {"name": "刘璋", "force": "qun", "city": "成都", "difficulty": "normal"},
+        {"name": "马腾", "force": "qun", "city": "西凉", "difficulty": "normal"},
+        {"name": "张鲁", "force": "qun", "city": "汉中", "difficulty": "normal"},
+        {"name": "公孙康", "force": "qun", "city": "辽东", "difficulty": "normal"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "赤壁之战",
+      "year": 208,
+      "description": "曹操南下，孙刘联军在赤壁大败曹军，奠定三国鼎立的基础。",
+      "rulers": [
+        {"name": "曹操", "force": "wei", "city": "许昌", "difficulty": "normal"},
+        {"name": "刘备", "force": "shu", "city": "江夏", "difficulty": "hard"},
+        {"name": "孙权", "force": "wu", "city": "建业", "difficulty": "normal"},
+        {"name": "刘璋", "force": "qun", "city": "成都", "difficulty": "normal"},
+        {"name": "马腾", "force": "qun", "city": "西凉", "difficulty": "normal"},
+        {"name": "张鲁", "force": "qun", "city": "汉中", "difficulty": "normal"},
+        {"name": "公孙恭", "force": "qun", "city": "辽东", "difficulty": "normal"}
+      ]
+    },
+    {
+      "id": 6,
+      "name": "三国鼎立",
+      "year": 221,
+      "description": "刘备称帝建立蜀汉，三国鼎立局面正式形成。",
+      "rulers": [
+        {"name": "曹丕", "force": "wei", "city": "洛阳", "difficulty": "easy"},
+        {"name": "刘备", "force": "shu", "city": "成都", "difficulty": "normal"},
+        {"name": "孙权", "force": "wu", "city": "建业", "difficulty": "normal"},
+        {"name": "孟获", "force": "qun", "city": "云南", "difficulty": "normal"},
+        {"name": "公孙恭", "force": "qun", "city": "辽东", "difficulty": "normal"}
+      ]
+    }
+  ]
+}

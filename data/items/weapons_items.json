@@ -1,0 +1,39 @@
+{
+  "weapons": [
+    {"id": 1, "name": "直剑", "type": "sword", "attack": 10, "weight": 3, "description": "普通的直剑，适合初学者"},
+    {"id": 2, "name": "短锥枪", "type": "spear", "attack": 12, "weight": 4, "description": "短柄锥形枪，灵活实用"},
+    {"id": 3, "name": "眉尖刀", "type": "blade", "attack": 15, "weight": 5, "description": "刀尖如眉，锋利无比"},
+    {"id": 4, "name": "铜殳", "type": "mace", "attack": 14, "weight": 6, "description": "青铜制成的打击武器"},
+    {"id": 5, "name": "剑系", "type": "sword", "attack": 13, "weight": 4, "description": "各类长剑的统称"},
+    {"id": 6, "name": "长枪", "type": "spear", "attack": 18, "weight": 6, "description": "长柄战枪，适合马战"},
+    {"id": 7, "name": "大刀", "type": "blade", "attack": 20, "weight": 7, "description": "重型大刀，威力巨大"},
+    {"id": 8, "name": "方天画戟", "type": "halberd", "attack": 25, "weight": 8, "description": "吕布的标志性武器，威力无比"},
+    {"id": 9, "name": "青龙偃月刀", "type": "blade", "attack": 28, "weight": 9, "description": "关羽的成名武器，重八十二斤"},
+    {"id": 10, "name": "丈八蛇矛", "type": "spear", "attack": 26, "weight": 8, "description": "张飞的武器，长一丈八尺"},
+    {"id": 11, "name": "双股剑", "type": "sword", "attack": 22, "weight": 5, "description": "刘备的武器，雌雄双剑"},
+    {"id": 12, "name": "倚天剑", "type": "sword", "attack": 30, "weight": 4, "description": "曹操的佩剑，削铁如泥"},
+    {"id": 13, "name": "古锭刀", "type": "blade", "attack": 24, "weight": 7, "description": "孙坚的武器"},
+    {"id": 14, "name": "铁脊蛇矛", "type": "spear", "attack": 23, "weight": 7, "description": "程普的武器"},
+    {"id": 15, "name": "狼牙棒", "type": "mace", "attack": 21, "weight": 8, "description": "带有尖刺的重型武器"},
+    {"id": 16, "name": "铁锤", "type": "mace", "attack": 19, "weight": 9, "description": "重型打击武器"},
+    {"id": 17, "name": "双戟", "type": "halberd", "attack": 24, "weight": 7, "description": "典韦的武器"},
+    {"id": 18, "name": "三尖两刃刀", "type": "halberd", "attack": 23, "weight": 7, "description": "纪灵的武器"},
+    {"id": 19, "name": "铁鞭", "type": "mace", "attack": 20, "weight": 6, "description": "黄盖和尉迟恭的武器"},
+    {"id": 20, "name": "流星锤", "type": "mace", "attack": 22, "weight": 5, "description": "可以远程攻击的链锤"}
+  ],
+  "items": [
+    {"id": 101, "name": "兵书", "type": "book", "effect": "zhili+5", "description": "提高智力的兵书"},
+    {"id": 102, "name": "孙子兵法", "type": "book", "effect": "zhili+10", "description": "孙武所著的兵法经典"},
+    {"id": 103, "name": "太平要术", "type": "book", "effect": "zhili+8", "description": "张角的秘传之术"},
+    {"id": 201, "name": "战马", "type": "mount", "effect": "speed+20", "description": "普通的战马"},
+    {"id": 202, "name": "赤兔马", "type": "mount", "effect": "speed+50", "description": "吕布的坐骑，天下第一骏马"},
+    {"id": 203, "name": "的卢", "type": "mount", "effect": "speed+40", "description": "刘备的坐骑，飞跃檀溪"},
+    {"id": 204, "name": "爪黄飞电", "type": "mount", "effect": "speed+35", "description": "曹操的坐骑"},
+    {"id": 301, "name": "青囊书", "type": "medicine", "effect": "heal_all", "description": "华佗的医书，可恢复全体生命"},
+    {"id": 302, "name": "金疮药", "type": "medicine", "effect": "heal+50", "description": "恢复生命的药物"},
+    {"id": 401, "name": "玉玺", "type": "treasure", "effect": "prestige+100", "description": "传国玉玺，得者称帝"},
+    {"id": 402, "name": "赤兔", "type": "treasure", "effect": "wuli+5", "description": "赤兔马（旧称）"},
+    {"id": 501, "name": "丹药", "type": "consumable", "effect": "hp_full", "description": "恢复全部生命"},
+    {"id": 502, "name": "还魂丹", "type": "consumable", "effect": "revive", "description": "复活阵亡武将"}
+  ]
+}

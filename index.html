@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三国群英传2 - 复刻版</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #1a1a1a;
+            color: #d4af37;
+            font-family: "Microsoft YaHei", "SimSun", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000;
+            margin-bottom: 30px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .btn {
+            background: linear-gradient(180deg, #8b0000 0%, #4a0000 100%);
+            border: 2px solid #d4af37;
+            color: #fff;
+            padding: 15px 60px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 250px;
+        }
+        .btn:hover {
+            background: linear-gradient(180deg, #a50000 0%, #5a0000 100%);
+            transform: scale(1.05);
+        }
+        .info {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>三国群英传2</h1>
+        <div class="menu">
+            <button class="btn" onclick="startGame()">开始游戏</button>
+            <button class="btn" onclick="loadGame()">载入进度</button>
+            <button class="btn" onclick="showSettings()">游戏设置</button>
+            <button class="btn" onclick="showHelp()">游戏说明</button>
+        </div>
+        <div class="info">
+            <p>复刻版 v0.1 | 项目开发中</p>
+            <p>包含 6 个剧本 | 100+ 武将 | 50 座城池</p>
+        </div>
+    </div>
+
+    <script>
+        // 游戏数据加载
+        const gameData = {
+            scenarios: [],
+            characters: [],
+            skills: [],
+            maps: []
+        };
+
+        async function loadData() {
+            try {
+                const [scenarios, characters, skills, maps] = await Promise.all([
+                    fetch('data/scripts/scenarios.json').then(r => r.json()),
+                    fetch('data/characters/characters.json').then(r => r.json()),
+                    fetch('data/skills/skills.json').then(r => r.json()),
+                    fetch('data/maps/china_map.json').then(r => r.json())
+                ]);
+                gameData.scenarios = scenarios;
+                gameData.characters = characters;
+                gameData.skills = skills;
+                gameData.maps = maps;
+                console.log('游戏数据加载完成');
+            } catch (e) {
+                console.error('数据加载失败:', e);
+            }
+        }
+
+        function startGame() {
+            alert('选择剧本功能开发中...\n\n可用剧本:\n1. 黄巾之乱 (184年)\n2. 讨伐董卓 (190年)\n3. 群雄割据 (196年)\n4. 官渡之战 (200年)\n5. 赤壁之战 (208年)\n6. 三国鼎立 (221年)');
+        }
+
+        function loadGame() {
+            alert('存档功能开发中...');
+        }
+
+        function showSettings() {
+            alert('设置功能开发中...');
+        }
+
+        function showHelp() {
+            alert('游戏说明:\n\n本作是三国群英传2的浏览器复刻版。\n\n操作说明:\n- 点击城池选择目标\n- 内政/军事/人才三种指令\n- 战斗时选择武将和技能\n\n快捷键:\n- ESC: 返回/取消\n- Space: 确认\n- S: 存档\n- L: 读档');
+        }
+
+        // 页面加载时读取数据
+        window.onload = loadData;
+    </script>
+</body>
+</html>

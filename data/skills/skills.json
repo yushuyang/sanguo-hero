@@ -1,0 +1,204 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "落石",
+      "type": "attack",
+      "mp": 15,
+      "power": 20,
+      "range": "enemy",
+      "description": "召唤落石攻击敌军",
+      "level": 1
+    },
+    {
+      "id": 2,
+      "name": "命疗术",
+      "type": "heal",
+      "mp": 20,
+      "power": 30,
+      "range": "ally",
+      "description": "恢复友军生命值",
+      "level": 1
+    },
+    {
+      "id": 3,
+      "name": "连弩",
+      "type": "attack",
+      "mp": 18,
+      "power": 25,
+      "range": "enemy",
+      "description": "使用连弩射击敌军",
+      "level": 1
+    },
+    {
+      "id": 4,
+      "name": "突石",
+      "type": "attack",
+      "mp": 20,
+      "power": 28,
+      "range": "enemy",
+      "description": "召唤尖石突袭敌军",
+      "level": 1
+    },
+    {
+      "id": 5,
+      "name": "飞矢",
+      "type": "attack",
+      "mp": 12,
+      "power": 18,
+      "range": "enemy",
+      "description": "向敌军射出飞箭",
+      "level": 1
+    },
+    {
+      "id": 6,
+      "name": "落月弓",
+      "type": "attack",
+      "mp": 25,
+      "power": 35,
+      "range": "enemy",
+      "description": "弯弓如落月，威力强大",
+      "level": 2
+    },
+    {
+      "id": 7,
+      "name": "刀剑乱",
+      "type": "attack",
+      "mp": 22,
+      "power": 32,
+      "range": "enemy_all",
+      "description": "乱刀斩击敌军",
+      "level": 2
+    },
+    {
+      "id": 8,
+      "name": "地泉冲",
+      "type": "attack",
+      "mp": 28,
+      "power": 38,
+      "range": "enemy_line",
+      "description": "召唤地泉冲击敌军",
+      "level": 2
+    },
+    {
+      "id": 9,
+      "name": "火箭",
+      "type": "attack",
+      "mp": 24,
+      "power": 30,
+      "range": "enemy",
+      "description": "射出带火箭矢",
+      "level": 2
+    },
+    {
+      "id": 10,
+      "name": "木轮攻",
+      "type": "attack",
+      "mp": 32,
+      "power": 42,
+      "range": "enemy_all",
+      "description": "召唤木轮碾压敌军",
+      "level": 3
+    },
+    {
+      "id": 11,
+      "name": "半月斩",
+      "type": "attack",
+      "mp": 35,
+      "power": 45,
+      "range": "enemy_line",
+      "description": "半月形的强力斩击",
+      "level": 3
+    },
+    {
+      "id": 12,
+      "name": "旋龙",
+      "type": "attack",
+      "mp": 30,
+      "power": 40,
+      "range": "enemy",
+      "description": "召唤旋风龙攻击",
+      "level": 3
+    },
+    {
+      "id": 13,
+      "name": "落日弓",
+      "type": "attack",
+      "mp": 38,
+      "power": 48,
+      "range": "enemy",
+      "description": "如落日般强劲的箭术",
+      "level": 4
+    },
+    {
+      "id": 14,
+      "name": "八面火",
+      "type": "attack",
+      "mp": 42,
+      "power": 50,
+      "range": "enemy_all",
+      "description": "向八方喷射火焰",
+      "level": 4
+    },
+    {
+      "id": 15,
+      "name": "鬼戟",
+      "type": "attack",
+      "mp": 45,
+      "power": 55,
+      "range": "enemy_line",
+      "description": "鬼神之力的方天画戟攻击",
+      "level": 5
+    },
+    {
+      "id": 16,
+      "name": "伏兵组阵",
+      "type": "summon",
+      "mp": 50,
+      "power": 0,
+      "range": "ally",
+      "description": "召唤伏兵加入战斗",
+      "level": 4
+    },
+    {
+      "id": 17,
+      "name": "龙炮",
+      "type": "attack",
+      "mp": 55,
+      "power": 60,
+      "range": "enemy_all",
+      "description": "召唤龙形炮火攻击",
+      "level": 6
+    },
+    {
+      "id": 18,
+      "name": "火牛阵",
+      "type": "attack",
+      "mp": 60,
+      "power": 65,
+      "range": "enemy_all",
+      "description": "驱使火牛冲撞敌军",
+      "level": 6
+    },
+    {
+      "id": 19,
+      "name": "炎龙",
+      "type": "attack",
+      "mp": 65,
+      "power": 70,
+      "range": "enemy_line",
+      "description": "召唤炎龙焚烧敌军",
+      "level": 7
+    },
+    {
+      "id": 20,
+      "name": "狂雷天牢",
+      "type": "attack",
+      "mp": 80,
+      "power": 90,
+      "range": "enemy_all",
+      "description": "召唤天雷轰击敌军",
+      "level": 8
+    }
+  ]
+}
