@@ -36,6 +36,6 @@ details[open] { background: #970302; color: #dfdedd; }
 <p>Use thumbnail steps listed on https://w.wiki/GHai. Please contact noc@wikimedia.org for further information (a765913)</p>
 </div>
 </div>
-<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp5030 cp5030, Varnish XID 531462027<br>Upstream caches: cp5030 int<br>Error: 429, Use thumbnail steps listed on https://w.wiki/GHai. Please contact noc@wikimedia.org for further information (a765913) at Sun, 08 Mar 2026 07:28:55 GMT<br><details><summary>Sensitive client information</summary>IP address: 2408:8207:1924:7461:2d34:2a51:2654:26d9</details></code></p>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp5030 cp5030, Varnish XID 593207073<br>Upstream caches: cp5030 int<br>Error: 429, Use thumbnail steps listed on https://w.wiki/GHai. Please contact noc@wikimedia.org for further information (a765913) at Sun, 08 Mar 2026 07:28:56 GMT<br><details><summary>Sensitive client information</summary>IP address: 2408:8207:1924:7461:2d34:2a51:2654:26d9</details></code></p>
 </div>
 </html>
